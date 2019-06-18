@@ -37,11 +37,7 @@ h4 {
   .parallax-container .section {
     width: 100%;
   }
-#leftcont {
-  float: left;
-}
 #rightcont {
-  float: right;
   margin-right: 150px;
 }
 #footerheader {
