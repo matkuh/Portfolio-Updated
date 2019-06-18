@@ -47,6 +47,16 @@ h4 {
 #footerheader {
   font-size: 30px;
 }
+.btn {
+  background-color: black;
+}
+.portimg {
+  height: 100px;
+  width: 250px;
+}
+h4 {
+  text-align: center;
+}
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -73,7 +83,4 @@ h4 {
 
 footer.page-footer {
   margin: 0;
-}
-.btn {
-  background-color: black;
 }
