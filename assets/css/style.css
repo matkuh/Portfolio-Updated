@@ -5,6 +5,10 @@
  *
  * Made By MaterializeCSS.com
  */
+body {
+  background-image: url(../images/background1.jpg)
+}
+
 
 nav ul a,
 nav .brand-logo {
@@ -19,11 +23,9 @@ p {
   color: black;
 }
 h5 {
-  font-size: 40px;
   color: black;
 }
 h4 {
-  font-size: 30px;
   margin-bottom: 5%;
 }
 
@@ -49,6 +51,7 @@ h4 {
 }
 #footerheader {
   font-size: 30px;
+
 }
 .btn {
   background-color: black;
@@ -58,19 +61,36 @@ h4 {
   width: 250px;
   margin-top: 5%;
 }
+.projectimg {
+  height: 150px;
+  width: 350px;
+}
 h4 {
   text-align: center;
   color: black;
+  font-size: 25px;
 }
 h3 {
   color: black;
   text-align: center;
-
 }
-.portstuff {
+h2 {
+  font-size: 30px;
+}
+footer {
+  background-color: antiquewhite
+}
+.card-panel {
+  background-color: antiquewhite;
+}
+.links {
+  width: 50px;
+  height: 50px;
+}
+/* .portstuff {
   margin-top: 10%;
 
-}
+} */
 
 @media only screen and (max-width : 992px) {
   .parallax-container .section {
@@ -131,11 +151,10 @@ footer.page-footer {
   transform-origin: 0 0;
 }
 .about {
-  color: white
+  color: black
 }
 #abouthead {
-  margin-top: 5%;
-  color: white
+  color: black
 }
 
 .ml1 .line1 { top: 0; }
